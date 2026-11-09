@@ -3,7 +3,7 @@
 num1=$1
 num2=$2
 
-if  -z "$num1" ] || [ -z "$num2" ]; then
+if [ -z "$num1" ] || [ -z "$num2" ]; then
     echo "Ошибка: не переданы аргументы"
     exit 1
 fi
